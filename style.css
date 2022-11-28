@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    cursor: url("bola.cur"), auto;
+  }
+  header {
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+  }
+.conteiner{
+    width: 70%;
+}
+
+  h1{
+    font-size: 2em;
+    font-family: Roboto, sans-serif;
+  
+}
+
+.theList{
+   width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+  }
+
+.listHeader{
+   display: flex;
+ justify-content: space-around;
+
+}
+.banner{
+    width: 5vw;
+height: 10vh;
+}
+main{
+    background-color: green;
+}
+#backgroundMain{
+border-bottom: solid 1.5px #ffffff;
+height: 70vh;
+background-image: url("https://static.corinthians.com.br/uploads/1560193829afdec7005cc9f14302cd0474fd0f3c96.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+ flex-direction: column;
+ padding-top: 4vw;
+ padding-left: 6.5rem;
+ 
+}
+
+.titleBackground{
+    font-size: 5em;
+    color: #ffffff;
+    font-family: Roboto, sans-serif;
+}
+.containerImg{
+    height: 50%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 7em;
+}
+.imgContainer{
+  width: 25vw;
+  height: 30vh;
+}
+
+h3{
+  color: blueviolet;
+  font-size: 4em;
+    margin-right: 1em ;
+    font-family: Arial, sans-serif;
+    font-family: 'Satisfy', cursive;
+   }
+   /* coloquei dois font-family  */
+   /* para caso a diferente que eu coloquei não carregasse em algum nvegador */
+
+#boxFooter{
+/* margin-left: ; */
+    width: 30%;
+    height: 10vh;
+   }
+footer{
+ height: 9vh;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+/* https://fonts.google.com/ */
